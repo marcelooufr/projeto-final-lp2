@@ -15,7 +15,7 @@ Site que possui o intuito de apresentar e informar sobre as HQs, Séries e jogos
 
 | Marcelo Henrique | Fez o corpo e parte criativa do site, a parte original em desktop do FIGMA, atualizações do repositório |
 |---|---|
-| [Eduardo Almeida] | Fez a transformação do desktop em site para celular no FIGMA |
+| Eduardo Almeida | Fez a transformação do desktop em site para celular no FIGMA |
 
 
 ## Links
