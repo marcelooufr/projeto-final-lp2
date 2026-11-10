@@ -7,22 +7,21 @@ ultima_atualizacao: Dia/mês/ano
 arquivos_relacionados: CHANGELOG.md, docs/uso-de-IA.md, docs/versoes/v1.0-final.md
 ---
 
-# [Nome do projeto]
+# Walking Informs
 
-[Descrição em uma ou duas frases: qual problema o site resolve e para quem.]
+Site que possui o intuito de apresentar e informar sobre as HQs, Séries e jogos do universo de The Walking dead, planejando incentivar que mais pessoas conheçam e gostam da obra
 
 ## Integrantes
 
-| Nome | Onde atuou no projeto? (Mínimo de 3 frentes diferentes para cada aluno) |
+| Marcelo Henrique | Fez o corpo e parte criativa do site, a parte original em desktop do FIGMA, atualizações do repositório |
 |---|---|
-| [Nome completo] | [Ex.: Figma, estrutura HTML e documentação] |
-| [Nome completo] | [Ex.: estilos CSS, JS e responsividade] |
-| [Nome completo] | [Ex.: Atualização da documentação do github, interatividade em JavaScript e apresentação] |
+| [Eduardo Almeida] | Fez a transformação do desktop em site para celular no FIGMA |
+
 
 ## Links
 
 - **Site publicado (GitHub Pages):** [https://USUARIO.github.io/projeto-final-lp2/](https://USUARIO.github.io/projeto-final-lp2/)
-- **Protótipo no Figma:** [link]
+- **Protótipo no Figma:** https://www.figma.com/design/FOJAlJSGPND8NYrA4gZjm2/The-Walking-Dead?node-id=0-1&t=dETHYXdyXsFruNax-1
 - **Apresentação:** [link dos slides]
 
 ## Estrutura do repositório
