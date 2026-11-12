@@ -44,3 +44,9 @@ Site que possui o intuito de apresentar e informar sobre as HQs, Séries e jogos
 ## Uso de IA
 
 O uso de chatbot para tirar dúvidas está registrado em [docs/uso-de-IA.md](docs/uso-de-IA.md). Ferramentas que editam o repositório ou geram código de forma autônoma não foram utilizadas.
+
+## Anotações 
+
+Adicionar Java na página inicial, com a capa das séries rodando; 
+Adicionar Java na página de Jogos e HQs rodando a capa dos jogos e HQs
+Adicionar Java na parte dos personagens, abrindo informações sobre cada personagem
