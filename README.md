@@ -1,9 +1,9 @@
 ---
 titulo: Projeto final - Laboratório de Programação 2 (Web)
 descricao: Visão geral do projeto, integrantes, link do site publicado, do protótipo no Figma e da apresentação, além da organização do repositório.
-autores: Nome do integrante 1, Nome do integrante 2, Nome do integrante 3
+autores: Marcelo Henrique e Eduardo Almeida
 versao: v1.0
-ultima_atualizacao: Dia/mês/ano
+ultima_atualizacao: 12/11/26
 arquivos_relacionados: CHANGELOG.md, docs/uso-de-IA.md, docs/versoes/v1.0-final.md
 ---
 
@@ -47,6 +47,8 @@ O uso de chatbot para tirar dúvidas está registrado em [docs/uso-de-IA.md](doc
 
 ## Anotações 
 
-Adicionar Java na página inicial, com a capa das séries rodando; 
+Adicionar Java na página inicial, com a capa das séries rodando
+
 Adicionar Java na página de Jogos e HQs rodando a capa dos jogos e HQs
+
 Adicionar Java na parte dos personagens, abrindo informações sobre cada personagem
