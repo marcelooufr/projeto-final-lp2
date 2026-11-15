@@ -1,0 +1,170 @@
+
+body {
+    background-color: #171812;
+    font-family: Arial;
+    color: white;
+    margin: 0;
+    padding: 30px 6%;
+}
+
+.pagina {
+    border: 3px solid #ccc;
+    background-color: #111;
+}
+
+/* Menu */
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 50px 15px;
+    border-bottom: 1px solid #ccc;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-family: Georgia;
+    font-size: 25px;
+}
+
+nav a:hover {
+    color: #a99a6c;
+}
+
+/* Apresentação */
+
+.apresentacao {
+    text-align: center;
+    padding: 50px;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-bottom: 50px;
+}
+
+.logo img {
+    width: 270px;
+    height: 270px;
+    border-radius: 40px;
+}
+
+.nome {
+    color: #a99a6c;
+    text-align: left;
+}
+
+.nome h2 {
+    font-size: 35px;
+    margin-left: 90px;
+    margin-bottom: 0;
+}
+
+.nome h1 {
+    font-size: 75px;
+    margin-top: 0;
+}
+
+.apresentacao p {
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.5;
+    max-width: 1000px;
+    margin: auto;
+}
+
+/* Outras partes do site */
+
+.informacoes {
+    text-align: center;
+    padding: 35px;
+    border-top: 1px solid #777;
+}
+
+.informacoes h2 {
+    color: #a99a6c;
+    font-family: Georgia;
+    font-size: 30px;
+}
+
+.informacoes p {
+    font-size: 18px;
+}
+
+/* Rodapé */
+
+footer {
+    border-top: 1px solid #ccc;
+    padding: 25px;
+}
+
+.rodape {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+    gap: 20px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.rodape img {
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+}
+
+footer h3 {
+    text-align: center;
+    font-family: Georgia;
+    font-weight: normal;
+}
+
+/* Para telas menores */
+
+@media (max-width: 800px) {
+
+    nav {
+        gap: 20px;
+    }
+
+    nav a {
+        font-size: 18px;
+    }
+
+    .logo {
+        flex-direction: column;
+    }
+
+    .nome {
+        text-align: center;
+    }
+
+    .nome h2 {
+        margin-left: 0;
+    }
+
+    .nome h1 {
+        font-size: 40px;
+    }
+
+    .apresentacao {
+        padding: 25px;
+    }
+
+    .apresentacao p {
+        font-size: 16px;
+    }
+
+    .rodape {
+        flex-direction: column;
+    }
+
+}
