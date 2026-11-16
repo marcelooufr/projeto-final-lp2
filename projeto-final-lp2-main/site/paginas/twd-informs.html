@@ -1,18 +1,17 @@
-
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Walking Dead</title>
-    <link rel="stylesheet" href="site/css/estilo.css>
+    <link rel="stylesheet" href="../css/estilo.css">
 </head>
-
 <body>
 
-    <div class="pagina">
+    <main class="pagina">
 
-        <header>
-            <nav>
+        <header class="cabecalho">
+            <nav class="menu">
                 <a href="#inicio">Início</a>
                 <a href="#origem">Origem</a>
                 <a href="#historia">História</a>
@@ -22,98 +21,59 @@
             </nav>
         </header>
 
-        <main id="inicio">
+        <section class="conteudo" id="inicio">
 
             <div class="apresentacao">
 
-                <div class="logo">
-                    <img src="logo.png">
+                <img src="../../img/ICON-inicio.jpg"
+                     alt="Imagem de The Walking Dead"
+                     class="imagem-destaque">
 
-                    <div class="nome">
-                        <h2>THE</h2>
-                        <h1>WALKING DEAD</h1>
-                    </div>
+                <div class="titulo">
+                    <span>THE</span>
+                    <h1>WALKING DEAD</h1>
                 </div>
 
-                <p>
-                    Bem-vindo ao universo de The Walking Dead, onde sobreviver é apenas o começo.
-                    Em um mundo dominado pelos mortos-vivos, cada escolha pode significar a diferença
-                    entre a vida e a morte. Aqui, você poderá explorar os personagens marcantes, os
-                    grupos de sobreviventes e os principais acontecimentos dessa história.
-                    Prepare-se para conhecer um universo cheio de desafios, perdas, alianças e
-                    reviravoltas, onde o maior perigo nem sempre vem dos mortos, mas também dos vivos.
-                </p>
-
             </div>
 
-            <div class="informacoes" id="origem">
-                <h2>Origem</h2>
-                <p>
-                    The Walking Dead começou como uma história em quadrinhos
-                    criada por Robert Kirkman.
-                </p>
+            <p class="descricao">
+                Bem-vindo ao universo de The Walking Dead, onde sobreviver é apenas o começo.
+                Em um mundo dominado pelos mortos-vivos, cada escolha pode significar a
+                diferença entre a vida e a morte. Aqui, você poderá explorar os personagens
+                marcantes, os grupos de sobreviventes, os principais acontecimentos e os
+                momentos que fizeram parte dessa jornada. Prepare-se para conhecer mais sobre
+                esse universo repleto de desafios, perdas, alianças e reviravoltas, onde o
+                maior perigo nem sempre vem dos mortos, mas também dos próprios vivos.
+            </p>
+
+        </section>
+
+        <footer class="rodape">
+
+            <div class="marca">
+                <img src="img/logo.png" alt="Logo">
             </div>
 
-            <div class="informacoes" id="historia">
-                <h2>História</h2>
-                <p>
-                    A história acompanha pessoas tentando sobreviver em um mundo
-                    tomado por zumbis.
-                </p>
-            </div>
+            <p class="creditos">
+                Desenvolvido por: Marcelo Henrique<br>
+                Eduardo Almeida
+            </p>
 
-            <div class="informacoes" id="jogos">
-                <h2>Jogos e HQs</h2>
-                <p>
-                    Além da série, The Walking Dead também possui jogos e
-                    histórias em quadrinhos.
-                </p>
-            </div>
+            <p class="instituicao">
+                Instituto Federal do Triângulo Mineiro,<br>
+                Patrocínio MG.
+            </p>
 
-            <div class="informacoes" id="comunidade">
-                <h2>Comunidade</h2>
-                <p>
-                    Os fãs compartilham teorias, curiosidades e opiniões
-                    sobre a série.
-                </p>
-            </div>
+            <p class="turma">
+                2º Ano Informática
+            </p>
 
-            <div class="informacoes" id="personagens">
-                <h2>Personagens</h2>
-                <p>
-                    Conheça os personagens que marcaram a história e suas
-                    jornadas durante o apocalipse.
-                </p>
-            </div>
-
-        </main>
-
-        <footer>
-
-            <div class="rodape">
-
-                <img src="icone.png">
-
-                <p>
-                    Desenvolvido por:<br>
-                    Marcelo Henrique<br>
-                    Eduardo Almeida
-                </p>
-
-                <p>
-                    Instituto Federal do Triângulo Mineiro<br>
-                    Patrocínio MG
-                </p>
-
-                <p>2º Ano Informática</p>
-
-            </div>
-
-            <h3>@2026 AMC SERIES</h3>
+            <span class="direitos">@2026 AMC SERIES</span>
 
         </footer>
 
-    </div>
+    </main>
 
 </body>
 </html>
+
