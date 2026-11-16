@@ -1,0 +1,274 @@
+
+/* Configurações gerais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    min-height: 100vh;
+    padding: 60px 4%;
+
+    background:
+        linear-gradient(
+            rgba(0, 0, 0, 0.48),
+            rgba(0, 0, 0, 0.72)
+        ),
+        url("../../img/fundoescuro.png") center center / cover fixed no-repeat;
+
+    background-color: #171713;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Página principal */
+.pagina {
+    width: 100%;
+    max-width: 1325px;
+    min-height: 925px;
+    margin: 0 auto;
+
+    border: 3px solid #c9c9c5;
+    background: rgba(8, 8, 8, 0.88);
+
+    display: flex;
+    flex-direction: column;
+}
+
+/* Menu superior */
+.cabecalho {
+    min-height: 155px;
+    border-bottom: 1px solid #c9c9c5;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 25px 35px;
+}
+
+.menu {
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 22px;
+}
+
+.menu a {
+    color: #f5f2ed;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: clamp(19px, 2.35vw, 36px);
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+.menu a:hover {
+    color: #a99b70;
+}
+
+/* Conteúdo central */
+.conteudo {
+    flex: 1;
+    padding: 50px 7% 60px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.apresentacao {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 55px;
+    margin-bottom: 62px;
+}
+
+/* Imagem dos zumbis */
+.imagem-destaque {
+    width: 270px;
+    height: 270px;
+    object-fit: cover;
+    border-radius: 48px;
+    flex-shrink: 0;
+}
+
+/* Título principal */
+.titulo {
+    color: #968963;
+    text-align: center;
+}
+
+.titulo span {
+    display: block;
+    margin-bottom: -5px;
+
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 36px;
+    letter-spacing: 2px;
+}
+
+.titulo h1 {
+    font-family: Impact, "Arial Narrow", sans-serif;
+    font-size: clamp(48px, 8.5vw, 112px);
+    font-weight: 900;
+    letter-spacing: 2px;
+    line-height: 1;
+    white-space: nowrap;
+}
+
+/* Texto de apresentação */
+.descricao {
+    max-width: 970px;
+    margin: 0 auto;
+
+    text-align: center;
+    font-family: "Arial Narrow", Arial, sans-serif;
+    font-size: clamp(17px, 1.55vw, 23px);
+    font-weight: bold;
+    line-height: 1.42;
+}
+
+/* Rodapé */
+.rodape {
+    min-height: 125px;
+    border-top: 1px solid #c9c9c5;
+
+    padding: 22px 4% 12px;
+
+    display: grid;
+    grid-template-columns: 90px 1.2fr 1.5fr 1fr;
+    align-items: center;
+    gap: 20px;
+
+    position: relative;
+    text-align: center;
+}
+
+/* Logo do rodapé */
+.marca img {
+    width: 66px;
+    height: 66px;
+    object-fit: cover;
+
+    border: 3px solid #aaa;
+    border-radius: 50%;
+}
+
+/* Informações do rodapé */
+.creditos,
+.instituicao,
+.turma {
+    font-family: "Arial Narrow", Arial, sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 1.35;
+}
+
+.direitos {
+    position: absolute;
+    bottom: 4px;
+    left: 50%;
+    transform: translateX(-50%);
+
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 17px;
+    white-space: nowrap;
+}
+
+/* Ajustes para telas menores */
+@media (max-width: 900px) {
+
+    body {
+        padding: 20px 3%;
+    }
+
+    .pagina {
+        min-height: calc(100vh - 40px);
+    }
+
+    .cabecalho {
+        min-height: auto;
+        padding: 25px 15px;
+    }
+
+    .menu {
+        flex-wrap: wrap;
+        gap: 18px 25px;
+    }
+
+    .menu a {
+        font-size: 22px;
+    }
+
+    .apresentacao {
+        flex-direction: column;
+        gap: 25px;
+        margin-bottom: 35px;
+    }
+
+    .imagem-destaque {
+        width: 220px;
+        height: 220px;
+    }
+
+    .titulo h1 {
+        white-space: normal;
+    }
+
+    .rodape {
+        grid-template-columns: 1fr 1fr;
+        padding-bottom: 35px;
+    }
+
+    .marca {
+        grid-column: 1 / -1;
+    }
+}
+
+/* Ajustes para celulares */
+@media (max-width: 500px) {
+
+    .conteudo {
+        padding: 35px 7%;
+    }
+
+    .menu a {
+        font-size: 18px;
+    }
+
+    .titulo span {
+        font-size: 27px;
+    }
+
+    .titulo h1 {
+        font-size: 48px;
+    }
+
+    .descricao {
+        font-size: 17px;
+    }
+
+    .rodape {
+        grid-template-columns: 1fr;
+        gap: 14px;
+    }
+
+    .creditos,
+    .instituicao,
+    .turma {
+        font-size: 12px;
+    }
+
+    .direitos {
+        font-size: 15px;
+    }
+}
+
