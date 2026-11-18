@@ -272,3 +272,318 @@ body {
     }
 }
 
+
+
+/* CONFIGURAÇÃO GERAL */
+
+.origem-pagina {
+    width: 94%;
+    max-width: 1200px;
+    min-height: 95vh;
+    margin: 15px auto;
+    border: 1px solid #777;
+    background: rgba(0, 0, 0, 0.35);
+    box-sizing: border-box;
+}
+
+/* CABEÇALHO */
+
+.origem-header {
+    width: 100%;
+    border-bottom: 1px solid #777;
+}
+
+.origem-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 22px 12px;
+}
+
+.origem-menu a {
+    color: #ddd;
+    text-decoration: none;
+    font-family: Georgia, serif;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.origem-menu a:hover {
+    color: #c99c37;
+}
+
+/* CONTEÚDO */
+
+.origem-conteudo {
+    width: 92%;
+    margin: auto;
+}
+
+/* TÍTULO PRINCIPAL */
+
+.origem-titulo {
+    text-align: center;
+    color: #c99c37;
+    font-family: Georgia, serif;
+    font-size: 40px;
+    margin: 30px 0 25px;
+}
+
+/* ÁREA DO CRIADOR */
+
+.origem-criador {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #29452b;
+    border-radius: 15px;
+    box-sizing: border-box;
+}
+
+/* FOTO E TEXTO */
+
+.origem-apresentacao {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.origem-apresentacao img {
+    width: 115px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.origem-apresentacao p {
+    flex: 1;
+    color: #ddd0a7;
+    font-family: Georgia, serif;
+    font-size: 14px;
+    line-height: 1.5;
+    margin: 0;
+}
+
+/* IMAGENS DOS QUADRINHOS */
+
+.origem-imagens-hq {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+    margin-top: 18px;
+}
+
+.origem-imagens-hq img {
+    width: 100%;
+    height: 130px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+/* TRANSFORMAÇÃO EM SÉRIE */
+
+.origem-subtitulo {
+    color: #c99c37;
+    text-align: center;
+    font-family: Georgia, serif;
+    font-size: 32px;
+    margin: 25px 0;
+}
+
+.origem-serie {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    width: 100%;
+}
+
+.origem-serie img {
+    width: 155px;
+    height: 195px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.origem-serie p {
+    flex: 1;
+    color: #ddd0a7;
+    font-family: Georgia, serif;
+    font-size: 14px;
+    line-height: 1.6;
+    margin: 0;
+}
+
+/* RODAPÉ */
+
+.origem-rodape {
+    width: 100%;
+    margin-top: 40px;
+    padding: 12px 20px;
+    border-top: 1px solid #777;
+    box-sizing: border-box;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    color: #ddd;
+    font-family: Georgia, serif;
+    font-size: 9px;
+    text-align: center;
+}
+
+.origem-rodape img {
+    width: 45px;
+    height: 35px;
+    object-fit: contain;
+}
+
+/* RESPONSIVIDADE */
+
+@media (max-width: 600px) {
+
+    .origem-pagina {
+        width: 96%;
+    }
+
+    .origem-conteudo {
+        width: 94%;
+    }
+
+    .origem-menu {
+        gap: 14px;
+        padding: 18px 8px;
+    }
+
+    .origem-menu a {
+        font-size: 12px;
+    }
+
+    .origem-titulo {
+        font-size: 32px;
+    }
+
+    .origem-criador {
+        padding: 10px;
+    }
+
+    .origem-apresentacao {
+        gap: 12px;
+    }
+
+    .origem-apresentacao img {
+        width: 90px;
+        height: 105px;
+    }
+
+    .origem-apresentacao p {
+        font-size: 11px;
+    }
+
+    .origem-imagens-hq {
+        gap: 10px;
+    }
+
+    .origem-imagens-hq img {
+        height: 90px;
+    }
+
+    .origem-subtitulo {
+        font-size: 25px;
+    }
+
+    .origem-serie {
+        gap: 12px;
+    }
+
+    .origem-serie img {
+        width: 115px;
+        height: 155px;
+    }
+
+    .origem-serie p {
+        font-size: 11px;
+    }
+
+    .origem-rodape {
+        font-size: 7px;
+        padding: 10px;
+    }
+}
+
+/* AJUSTE DE TAMANHO DA PAGINA ORIGEM */
+
+.origem-pagina {
+    width: 98%;
+    max-width: none;
+    min-height: 97vh;
+    margin: 10px auto;
+    box-sizing: border-box;
+}
+
+.origem-conteudo {
+    width: 96%;
+    margin: auto;
+}
+
+.origem-titulo {
+    font-size: 46px;
+    margin: 35px 0 30px;
+}
+
+/* CAIXA DO CRIADOR */
+
+.origem-criador {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.origem-apresentacao img {
+    width: 145px;
+    height: 145px;
+}
+
+.origem-apresentacao p {
+    font-size: 16px;
+    line-height: 1.7;
+}
+
+.origem-imagens-hq img {
+    height: 155px;
+}
+
+/* TRANSFORMACAO EM SERIE */
+
+.origem-subtitulo {
+    font-size: 38px;
+    margin: 30px 0;
+}
+
+.origem-serie {
+    width: 100%;
+    gap: 25px;
+}
+
+.origem-serie img {
+    width: 190px;
+    height: 230px;
+}
+
+.origem-serie p {
+    font-size: 16px;
+    line-height: 1.7;
+}
+
+/* CABECALHO */
+
+.origem-menu {
+    padding: 25px 15px;
+    gap: 35px;
+}
+
+.origem-menu a {
+    font-size: 16px;
+}
+
