@@ -1,9 +1,8 @@
 ---
 titulo: Projeto final - Laboratório de Programação 2 (Web)
-descricao: Visão geral do projeto, integrantes, link do site publicado, do protótipo no Figma e da apresentação, além da organização do repositório.
-autores: Marcelo Henrique e Eduardo Almeida
-versao: v1.0
-ultima_atualizacao: 12/11/26
+descricao: Projeto sobre o Universo de the walking dead, criado por Marcelo e Eduardo
+versao: v2.0
+ultima_atualizacao: 22/11/26 11:20
 arquivos_relacionados: CHANGELOG.md, docs/uso-de-IA.md, docs/versoes/v1.0-final.md
 ---
 
