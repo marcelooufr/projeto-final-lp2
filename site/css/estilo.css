@@ -1025,38 +1025,34 @@ body {
     margin-bottom: 35px;
 }
 
-.personagens-lista {
+.grade-personagens {
     width: 100%;
-    padding: 35px 30px;
+    padding: 40px 30px;
     border: 2px solid #29452b;
     border-radius: 30px;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 35px 30px;
-    justify-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 35px 25px;
 }
 
-.personagens-card {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.card-personagem {
     text-align: center;
 }
 
-.personagens-card img {
-    width: 195px;
-    height: 195px;
+.card-personagem img {
+    width: 190px;
+    height: 190px;
     object-fit: cover;
     border-radius: 25px;
 }
 
-.personagens-card p {
-    margin-top: 12px;
+.card-personagem p {
+    margin-top: 10px;
     color: white;
     font: bold 20px Arial, sans-serif;
 }
 
-.comunidade-caixa {
+.comunidade-box {
     width: 100%;
     padding: 35px 40px;
     border: 2px solid #29452b;
@@ -1067,7 +1063,7 @@ body {
     gap: 40px;
 }
 
-.comunidade-caixa img {
+.comunidade-box img {
     width: 240px;
     height: 330px;
     object-fit: cover;
@@ -1075,29 +1071,25 @@ body {
     flex-shrink: 0;
 }
 
-.comunidade-caixa p {
+.comunidade-box p {
     color: white;
     font: bold 20px/1.5 Arial, sans-serif;
-    text-align: left;
 }
 
-.comunidade-portais {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.comunidade-links {
     text-align: center;
-    gap: 20px;
 }
 
-.comunidade-portais p {
-    max-width: 720px;
+.comunidade-links p {
+    max-width: 700px;
+    margin: 0 auto 25px;
     color: white;
     font: bold 20px/1.5 Arial, sans-serif;
 }
 
-.comunidade-portais a {
+.comunidade-links a {
+    display: block;
+    margin-bottom: 18px;
     color: white;
     font: bold 20px Arial, sans-serif;
-    text-decoration: underline;
 }
