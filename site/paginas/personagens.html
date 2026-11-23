@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="pt-br">
 
@@ -16,7 +17,6 @@
     <div class="pagina personagens-pagina">
 
         <header class="cabecalho">
-
             <nav class="menu">
                 <a href="twd-informs.html">Início</a>
                 <a href="origem.html">Origem</a>
@@ -25,7 +25,6 @@
                 <a href="comunidade.html">Comunidade</a>
                 <a href="personagens.html">Personagens</a>
             </nav>
-
         </header>
 
         <main class="personagens-conteudo">
@@ -35,48 +34,75 @@
             <section class="grade-personagens">
 
                 <div class="card-personagem">
-                    <img src="../../img/michonne.png" alt="Michonne">
+                    <img src="../../img/michonne.png" alt="Michonne" onclick="mostrarInfo('michonne')">
                     <p>Michonne</p>
+                    <div class="info-personagem" id="michonne">
+                        Michonne é uma sobrevivente habilidosa que utiliza uma katana. É conhecida por sua coragem e lealdade.
+                    </div>
                 </div>
 
                 <div class="card-personagem">
-                    <img src="../../img/carl.png" alt="Carl">
+                    <img src="../../img/carl.png" alt="Carl" onclick="mostrarInfo('carl')">
                     <p>Carl</p>
+                    <div class="info-personagem" id="carl">
+                        Carl é filho de Rick Grimes. Cresceu durante o apocalipse e aprendeu a enfrentar os perigos desse mundo.
+                    </div>
                 </div>
 
                 <div class="card-personagem">
-                    <img src="../../img/daryl.png" alt="Daryl">
+                    <img src="../../img/daryl.png" alt="Daryl" onclick="mostrarInfo('daryl')">
                     <p>Daryl</p>
+                    <div class="info-personagem" id="daryl">
+                        Daryl é um excelente rastreador e caçador. Utiliza uma besta e se torna um dos principais membros do grupo.
+                    </div>
                 </div>
 
                 <div class="card-personagem">
-                    <img src="../../img/maggie.png" alt="Maggie">
+                    <img src="../../img/maggie.png" alt="Maggie" onclick="mostrarInfo('maggie')">
                     <p>Maggie</p>
+                    <div class="info-personagem" id="maggie">
+                        Maggie é uma sobrevivente determinada que desenvolve grandes habilidades de liderança.
+                    </div>
                 </div>
 
                 <div class="card-personagem">
-                    <img src="../../img/glenn.png" alt="Glenn">
+                    <img src="../../img/glenn.png" alt="Glenn" onclick="mostrarInfo('glenn')">
                     <p>Glenn</p>
+                    <div class="info-personagem" id="glenn">
+                        Glenn era entregador de pizzas antes do apocalipse. É conhecido por sua inteligência, agilidade e bondade.
+                    </div>
                 </div>
 
                 <div class="card-personagem">
-                    <img src="../../img/carol.png" alt="Carol">
+                    <img src="../../img/carol.png" alt="Carol" onclick="mostrarInfo('carol')">
                     <p>Carol</p>
+                    <div class="info-personagem" id="carol">
+                        Carol passa por uma grande transformação e se torna uma das sobreviventes mais estratégicas do grupo.
+                    </div>
                 </div>
 
                 <div class="card-personagem">
-                    <img src="../../img/negan.png" alt="Negan">
+                    <img src="../../img/negan.png" alt="Negan" onclick="mostrarInfo('negan')">
                     <p>Negan</p>
+                    <div class="info-personagem" id="negan">
+                        Negan é o antigo líder dos Salvadores. É conhecido por sua personalidade provocadora e pelo taco Lucille.
+                    </div>
                 </div>
 
                 <div class="card-personagem">
-                    <img src="../../img/governador.png" alt="Governador">
+                    <img src="../../img/governador.png" alt="Governador" onclick="mostrarInfo('governador')">
                     <p>Governador</p>
+                    <div class="info-personagem" id="governador">
+                        O Governador liderava a comunidade de Woodbury. Apesar de parecer amigável, escondia um lado cruel.
+                    </div>
                 </div>
 
                 <div class="card-personagem">
-                    <img src="../../img/alpha.png" alt="Alpha">
+                    <img src="../../img/alpha.png" alt="Alpha" onclick="mostrarInfo('alpha')">
                     <p>Alpha</p>
+                    <div class="info-personagem" id="alpha">
+                        Alpha é a líder dos Sussurradores, um grupo que utiliza disfarces para caminhar entre os mortos.
+                    </div>
                 </div>
 
             </section>
@@ -108,6 +134,8 @@
         </footer>
 
     </div>
+
+    <script src="../js/personagens.js"></script>
 
 </body>
 </html>
