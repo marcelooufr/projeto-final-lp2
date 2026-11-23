@@ -1,8 +1,9 @@
 ---
 titulo: Projeto final - Laboratório de Programação 2 (Web)
-descricao: Projeto sobre o Universo de the walking dead, criado por Marcelo e Eduardo
-versao: v2.0
-ultima_atualizacao: 22/11/26 11:20
+descricao: Visão geral do projeto, integrantes, link do site publicado, do protótipo no Figma e da apresentação, além da organização do repositório.
+autores: Marcelo Henrique e Eduardo Almeida
+versao: v1.0
+ultima_atualizacao: 12/11/26
 arquivos_relacionados: CHANGELOG.md, docs/uso-de-IA.md, docs/versoes/v1.0-final.md
 ---
 
@@ -19,7 +20,7 @@ Site que possui o intuito de apresentar e informar sobre as HQs, Séries e jogos
 
 ## Links
 
-- **Site publicado (GitHub Pages):** https://github.com/marcelooufr/projeto-final-lp2
+- **Site publicado (GitHub Pages):** [https://USUARIO.github.io/projeto-final-lp2/](https://USUARIO.github.io/projeto-final-lp2/)
 - **Protótipo no Figma:** https://www.figma.com/design/FOJAlJSGPND8NYrA4gZjm2/The-Walking-Dead?node-id=0-1&t=dETHYXdyXsFruNax-1
 - **Apresentação:** [link dos slides]
 
