@@ -29,5 +29,33 @@ O modelo de dúvidas tiradas com a assistencia de IA deverão ter o seguinte for
 | 2026-11-12 | Meta AI | Responsividade | site/css/estilo.css | O menu sumia no celular e não sabíamos como adaptar o layout; tentamos ajustar larguras fixas sem sucesso | Entendi o uso de `@media` e escrevi a regra do menu hambúrguer por conta própria | prints/ia-02.png |
 | 2026-11-19 | Gemini | Validação do formulário | site/js/main.js | O envio aceitava campos vazios e e-mail inválido; não tínhamos certeza de como validar em JavaScript | Não usei o trecho sugerido; implementei a validação com `required` no HTML e revisei a lógica com o professor | prints/ia-03.png |
 
+# Uso de IA no projeto
+
+**Descrição:** Registro das conversas com chatbot utilizadas no desenvolvimento do projeto, com data, etapa e finalidade.
+
+**Autores:** Marcelo Henrique Rosa Filho
+
+**Versão:** v1.0
+
+**Última atualização:** 2026-11-30
+
+**Arquivos relacionados:** `docs/04-versoes/`, `site/css/style.css`, `site/js/`
+
+---
+
+## Registro de uso de IA
+
+| Data | Ferramenta | Etapa | Arquivo(s) afetado(s) | Motivo do uso e erro antes do uso | O que foi feito com a resposta | Link ou print |
+|---|---|---|---|---|---|---|
+| 2026-11-16 | ChatGPT | Conexão do CSS com HTML | Arquivos HTML e `site/css/style.css` | O CSS não estava sendo aplicado corretamente nas páginas, e eu não sabia o motivo. | Verifiquei como funciona a ligação entre HTML e CSS e corrigi os caminhos dos arquivos. | `prints/ia-01.png` |
+| 2026-11-21 | ChatGPT | Carrossel JavaScript | `site/js/` e `site/css/style.css` | Tinha dúvidas sobre como fazer um carrossel de imagens que se movimentasse horizontalmente e como conectar o JavaScript ao HTML e CSS. | Usei as explicações para entender o funcionamento do carrossel e ajustar a movimentação das imagens na página. | `prints/ia-02.png` |
+| 2026-11-22 | ChatGPT | Organização do CSS | `site/css/style.css` | O CSS estava ficando muito grande e desorganizado, dificultando encontrar os códigos de cada página e fazer alterações. | Organizei as regras do CSS para facilitar a leitura e a manutenção do código, mantendo os estilos das páginas. | `prints/ia-03.png` |
+
+---
+
+## Considerações finais
+
+O ChatGPT foi utilizado como ferramenta de auxílio durante o desenvolvimento do site, principalmente para esclarecer dúvidas sobre CSS, HTML e JavaScript. As conversas ajudaram a entender problemas encontrados durante a criação das páginas e a realizar ajustes no projeto.
+
 
 
